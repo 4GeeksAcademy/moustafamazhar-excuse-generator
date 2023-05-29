@@ -5,7 +5,10 @@ import "./style.css";
 import "./assets/img/4geeks.ico";
 
 window.onload = () => {
-  document.querySelector("#excuse").innerHTML = generateExcuse();
+  document.querySelector("#btn").addEventListener("click", () => {
+    document.querySelector("#excuse").innerHTML = generateExcuse();
+  });
+
   // console.log("Hello World!");
 };
 

@@ -1,1 +1,10 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+* body {
+  background-color: rgba(228, 138, 28, 0.861);
+  color: aliceblue;
+}
+
+#excuse {
+  color: rgb(11, 11, 104);
+}

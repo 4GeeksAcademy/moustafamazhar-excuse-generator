@@ -6,7 +6,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = () => {
   document.querySelector("#excuse").innerHTML = generateExcuse();
-  console.log("Hello World!");
+  // console.log("Hello World!");
 };
 
 let generateExcuse = () => {
@@ -21,5 +21,10 @@ let generateExcuse = () => {
     "while I was praying"
   ];
 
-  return "My dog Ate my Food";
+  let whoIndex = Math.floor(Math.random() * who.length);
+  let actionIndex = Math.floor(Math.random() * action.length);
+  let whatIndex = Math.floor(Math.random() * what.length);
+  let whenIndex = Math.floor(Math.random() * when.length);
+
+  
 };
